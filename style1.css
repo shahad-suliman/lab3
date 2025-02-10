@@ -1,0 +1,109 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-start;
+    padding: 15px;
+    background-color: #1a1a1a;
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    background-color: black;
+    
+
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.btn {
+    color: #111;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Gallery Section */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    background: #222;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    width: 250px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+.logo{
+    font-size: 16px;
+    font-weight: bold;
+    justify-content: flex-end;
+    color: white;
+    margin-left: 80px;
+    margin-top: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ellipsis{
+    font-size: 30px;
+    justify-content: flex-end;
+    align-items:flex-start;
+    color: white;
+    margin-right: 20px;
+    margin-top: 20px;
+}
